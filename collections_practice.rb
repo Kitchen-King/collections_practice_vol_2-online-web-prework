@@ -7,9 +7,7 @@ def contain_a(array)
 end
 
 def first_wa(array)
-  new_array = array.join(",")
-  search_array = new_array.split(",")
-  search_array.find {|x| x.include? ("wa")}
+  array.find{|x| x.to_s.include? ("wa")}
 end
 
 def remove_non_strings(array)
