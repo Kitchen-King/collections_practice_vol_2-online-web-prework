@@ -11,3 +11,9 @@ def first_wa(array)
   search_array = new_array.split(",")
   search_array.find {|x| x.include? ("wa")}
 end
+
+def remove_non_strings(array)
+  
+  
+  
+end
