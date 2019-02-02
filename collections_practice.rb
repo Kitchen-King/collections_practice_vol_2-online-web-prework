@@ -22,3 +22,10 @@ while i < array.length
   end
     strings_only
 end
+
+def count_elements(array)
+  
+  
+  
+  
+end
