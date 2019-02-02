@@ -22,8 +22,7 @@ while i < array.length
 end
 
 def count_elements(array)
-  
-  
-  
-  
+  counts = Hash.new(0)
+  array.each {|x| counts[x] += 1}
+  counts
 end
