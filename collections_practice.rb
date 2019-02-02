@@ -13,7 +13,12 @@ def first_wa(array)
 end
 
 def remove_non_strings(array)
-  
-  
-  
+  i = 0
+strings_only = []
+while i < array.length
+    if array[i].class.name == "String" then strings_only << array[i] 
+    end
+    i = i + 1
+  end
+    strings_only
 end
